@@ -226,6 +226,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
+header nav a, footer .lockup nav a {
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase; }
+
 header {
   height: 450px;
   background: url(../img/literacy2.jpg) center;
@@ -242,10 +247,7 @@ header {
     header nav a {
       display: inline-block;
       margin-left: 20px;
-      color: rgba(0, 0, 0, 0.7);
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-      font-weight: 700;
-      text-transform: uppercase; }
+      color: rgba(0, 0, 0, 0.7); }
       header nav a:hover {
         color: rgba(0, 0, 0, 0.9); }
   header h1 {
@@ -268,5 +270,47 @@ header {
     letter-spacing: 0.03em;
     color: white;
     line-height: 1; }
+
+footer {
+  height: 250px;
+  background: url(../img/books.jpg) center;
+  background-size: cover; }
+  footer .lockup {
+    padding: 50px 30px; }
+    footer .lockup:after {
+      content: "";
+      display: table;
+      clear: both; }
+    footer .lockup .logo {
+      height: 50px;
+      width: 50px;
+      background: #999;
+      float: left;
+      margin-right: 30px; }
+    footer .lockup .content-pane {
+      float: left; }
+    footer .lockup nav a {
+      display: inline-block;
+      margin-right: 30px;
+      color: white; }
+      footer .lockup nav a:hover {
+        color: #f99999; }
+    footer .lockup .copyright {
+      margin: 0;
+      text-transform: uppercase;
+      font-size: 12px;
+      color: white; }
+
+section {
+  max-width: 960px;
+  margin: 50px auto;
+  text-align: center; }
+  section h1 {
+    font-size: 72px;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.4); }
+  section p {
+    font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
 
 /*# sourceMappingURL=main.css.map */

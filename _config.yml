@@ -1,3 +1,9 @@
+# Site settings
+title: YouthLit
+email: kali@youthlit.org
+description: Building Youth Literacy One Child At A Time
+
+
 # Build settings
 
 markdown: kramdown

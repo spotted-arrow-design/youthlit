@@ -1,0 +1,35 @@
+footer
+  height: 250px
+  background: url(../img/books.jpg) center
+  background-size: cover
+
+
+  .lockup
+    padding: 50px 30px
+    +clearfix
+
+    .logo
+      +size(50px)
+      background: #999
+      float: left
+      margin-right: 30px
+
+    .content-pane
+      float: left
+
+    nav
+
+      a
+        display: inline-block
+        margin-right: 30px
+        color: white
+        @extend %block-text
+
+        &:hover
+          color: #f99999
+
+    .copyright
+      margin: 0
+      text-transform: uppercase
+      font-size: 12px
+      color: white
